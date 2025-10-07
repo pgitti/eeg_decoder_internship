@@ -1,0 +1,18 @@
+name: eeg_decoder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - numpy==1.26.4
+    - scikit-learn
+    - tensorflow==2.14
+    - keras
+    - ipython
+    - jupyter
+    - ipykernel
+    - matplotlib
+    - seaborn
+    - mne==1.10
+    - pandas
